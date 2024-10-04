@@ -1,0 +1,53 @@
+/* Top Navigation Bar */
+.Top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    height: 50px;
+    padding: 0 20px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  /* Home link (brand name) styling */
+  .Home {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Search bar styling */
+  .searchBar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .searchBar input {
+    width: 100%;
+    max-width: 400px; /* Adjust the width of the search bar */
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Navigation Links (Post, Login) */
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    margin-left: 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+    color: #007bff; /* Adds a hover effect */
+  }
+  

@@ -1,0 +1,84 @@
+/* Overall Login container styling */
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+  }
+  
+  /* Main login box styling */
+  .login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border: 2px solid #0096FF;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    min-width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Signup button styling */
+  .signup-link {
+    position: absolute;
+    top: -15px;
+    right: -40px;
+  }
+  
+  .signup-btn {
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid #0096FF;
+    color: #0096FF;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .signup-btn:hover {
+    background-color: #0096FF;
+    color: white;
+  }
+  
+  /* Form field styling */
+  .login-box p {
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0 5px 0;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Login button styling */
+  .login-btn {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #0096FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-btn:hover {
+    background-color: #007acc;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .login-box {
+      padding: 20px;
+    }
+  }
+  
