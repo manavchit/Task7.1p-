@@ -1,1 +1,13 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+    <title>Stafflist</title>
+  </head>
+  <body>
+        
+    <div id="root"></div>
+    
+  </body>
+</html>
